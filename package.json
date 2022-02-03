@@ -1,0 +1,17 @@
+{
+  "name": "booksapp_task",
+  "version": "1.0.0",
+  "description": "It performs a task that rewards the Users Referrer whenever a payment has been",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Arihant jain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0",
+    "validator": "^13.7.0"
+  }
+}
